@@ -21,6 +21,30 @@ main {
     object-fit: contain; /*hace q la imagen se ajuste al espacio q esta ocupando*/
 }
 
+.hero h1 {
+    border-radius: 20px;
+    padding: 20px;
+    background-color: salmon;
+}
+
+.hero h2 {
+    margin-top: 80px;
+}
+
+.hero .icono {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        margin-bottom: -10px;
+        margin-left: 20px;
+        background-image: url('./icono.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+     }
+
+
 .info{
     align-self: center;
     
@@ -39,7 +63,7 @@ main {
     margin-bottom: 24px;
 }
 
-.info button {
+.button {
     border: none;
     border-radius: 20px;
     color: #333;
