@@ -25,6 +25,7 @@ main {
     border-radius: 20px;
     padding: 20px;
     background-color: salmon;
+    display: inline-block;
 }
 
 .hero h2 {
